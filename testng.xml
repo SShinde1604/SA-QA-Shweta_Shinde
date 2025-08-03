@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" thread-count="5">
+
+	<groups>
+		<run>
+			<include name="Master" />
+			<include name="Sanity" />
+			<include name="Regression" />
+		</run>
+	</groups>
+
+	<test name="ChromeTest">
+	<parameter name="os" value="windows"/>
+	<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="testCases.TC001_Login_Test"/>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
