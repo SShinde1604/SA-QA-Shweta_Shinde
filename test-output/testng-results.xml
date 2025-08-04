@@ -1,19 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="6" total="7" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-04T12:13:15 IST" name="Default suite" finished-at="2025-08-04T12:13:29 IST" duration-ms="14480">
+  <suite started-at="2025-08-04T13:03:22 IST" name="Suite" finished-at="2025-08-04T13:03:43 IST" duration-ms="21312">
     <groups>
       <group name="Master">
-        <method signature="TC001_PurchaseFlow_Test.Verify_Invalid_Login_Fun()[pri:6, instance:testCases.TC001_PurchaseFlow_Test@30c8681]" name="Verify_Invalid_Login_Fun" class="testCases.TC001_PurchaseFlow_Test"/>
+        <method signature="TC001_PurchaseFlow_Test.VerifyLoginFun()[pri:0, instance:testCases.TC001_PurchaseFlow_Test@b83a9be]" name="VerifyLoginFun" class="testCases.TC001_PurchaseFlow_Test"/>
+        <method signature="TC001_PurchaseFlow_Test.VerifyAddToCartFunc()[pri:1, instance:testCases.TC001_PurchaseFlow_Test@b83a9be]" name="VerifyAddToCartFunc" class="testCases.TC001_PurchaseFlow_Test"/>
+        <method signature="TC001_PurchaseFlow_Test.Verify_CartPage_Func()[pri:2, instance:testCases.TC001_PurchaseFlow_Test@b83a9be]" name="Verify_CartPage_Func" class="testCases.TC001_PurchaseFlow_Test"/>
+        <method signature="TC001_PurchaseFlow_Test.Verify_Checkout_Func()[pri:3, instance:testCases.TC001_PurchaseFlow_Test@b83a9be]" name="Verify_Checkout_Func" class="testCases.TC001_PurchaseFlow_Test"/>
+        <method signature="TC001_PurchaseFlow_Test.Verify_Order_Success_Func()[pri:4, instance:testCases.TC001_PurchaseFlow_Test@b83a9be]" name="Verify_Order_Success_Func" class="testCases.TC001_PurchaseFlow_Test"/>
+        <method signature="TC001_PurchaseFlow_Test.Verify_Logout_Fun()[pri:5, instance:testCases.TC001_PurchaseFlow_Test@b83a9be]" name="Verify_Logout_Fun" class="testCases.TC001_PurchaseFlow_Test"/>
+        <method signature="TC001_PurchaseFlow_Test.Verify_Invalid_Login_Fun()[pri:6, instance:testCases.TC001_PurchaseFlow_Test@b83a9be]" name="Verify_Invalid_Login_Fun" class="testCases.TC001_PurchaseFlow_Test"/>
       </group> <!-- Master -->
       <group name="Sanity">
-        <method signature="TC001_PurchaseFlow_Test.Verify_Invalid_Login_Fun()[pri:6, instance:testCases.TC001_PurchaseFlow_Test@30c8681]" name="Verify_Invalid_Login_Fun" class="testCases.TC001_PurchaseFlow_Test"/>
+        <method signature="TC001_PurchaseFlow_Test.VerifyLoginFun()[pri:0, instance:testCases.TC001_PurchaseFlow_Test@b83a9be]" name="VerifyLoginFun" class="testCases.TC001_PurchaseFlow_Test"/>
+        <method signature="TC001_PurchaseFlow_Test.VerifyAddToCartFunc()[pri:1, instance:testCases.TC001_PurchaseFlow_Test@b83a9be]" name="VerifyAddToCartFunc" class="testCases.TC001_PurchaseFlow_Test"/>
+        <method signature="TC001_PurchaseFlow_Test.Verify_CartPage_Func()[pri:2, instance:testCases.TC001_PurchaseFlow_Test@b83a9be]" name="Verify_CartPage_Func" class="testCases.TC001_PurchaseFlow_Test"/>
+        <method signature="TC001_PurchaseFlow_Test.Verify_Checkout_Func()[pri:3, instance:testCases.TC001_PurchaseFlow_Test@b83a9be]" name="Verify_Checkout_Func" class="testCases.TC001_PurchaseFlow_Test"/>
+        <method signature="TC001_PurchaseFlow_Test.Verify_Order_Success_Func()[pri:4, instance:testCases.TC001_PurchaseFlow_Test@b83a9be]" name="Verify_Order_Success_Func" class="testCases.TC001_PurchaseFlow_Test"/>
+        <method signature="TC001_PurchaseFlow_Test.Verify_Logout_Fun()[pri:5, instance:testCases.TC001_PurchaseFlow_Test@b83a9be]" name="Verify_Logout_Fun" class="testCases.TC001_PurchaseFlow_Test"/>
+        <method signature="TC001_PurchaseFlow_Test.Verify_Invalid_Login_Fun()[pri:6, instance:testCases.TC001_PurchaseFlow_Test@b83a9be]" name="Verify_Invalid_Login_Fun" class="testCases.TC001_PurchaseFlow_Test"/>
       </group> <!-- Sanity -->
     </groups>
-    <test started-at="2025-08-04T12:13:15 IST" name="Default test" finished-at="2025-08-04T12:13:29 IST" duration-ms="14480">
+    <test started-at="2025-08-04T13:03:22 IST" name="ChromeTest" finished-at="2025-08-04T13:03:43 IST" duration-ms="21312">
       <class name="testCases.TC001_PurchaseFlow_Test">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC001_PurchaseFlow_Test@30c8681]" started-at="2025-08-04T12:13:15 IST" name="setup" finished-at="2025-08-04T12:13:17 IST" duration-ms="2596" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC001_PurchaseFlow_Test@b83a9be]" started-at="2025-08-04T13:03:22 IST" name="setup" finished-at="2025-08-04T13:03:25 IST" duration-ms="3345" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -24,57 +36,39 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Verify_Invalid_Login_Fun()[pri:6, instance:testCases.TC001_PurchaseFlow_Test@30c8681]" started-at="2025-08-04T12:13:17 IST" name="Verify_Invalid_Login_Fun" finished-at="2025-08-04T12:13:29 IST" duration-ms="11384" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Expected login to fail with invalid credentials, but it passed. expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Expected login to fail with invalid credentials, but it passed. expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:1079)
-at org.testng.Assert.assertEquals(Assert.java:1043)
-at testCases.TC001_PurchaseFlow_Test.Verify_Invalid_Login_Fun(TC001_PurchaseFlow_Test.java:124)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="VerifyLoginFun()[pri:0, instance:testCases.TC001_PurchaseFlow_Test@b83a9be]" started-at="2025-08-04T13:03:25 IST" name="VerifyLoginFun" finished-at="2025-08-04T13:03:30 IST" duration-ms="4570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginFun -->
+        <test-method signature="VerifyAddToCartFunc()[pri:1, instance:testCases.TC001_PurchaseFlow_Test@b83a9be]" started-at="2025-08-04T13:03:30 IST" name="VerifyAddToCartFunc" finished-at="2025-08-04T13:03:33 IST" duration-ms="3266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddToCartFunc -->
+        <test-method signature="Verify_CartPage_Func()[pri:2, instance:testCases.TC001_PurchaseFlow_Test@b83a9be]" started-at="2025-08-04T13:03:33 IST" name="Verify_CartPage_Func" finished-at="2025-08-04T13:03:36 IST" duration-ms="3285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CartPage_Func -->
+        <test-method signature="Verify_Checkout_Func()[pri:3, instance:testCases.TC001_PurchaseFlow_Test@b83a9be]" started-at="2025-08-04T13:03:36 IST" name="Verify_Checkout_Func" finished-at="2025-08-04T13:03:41 IST" duration-ms="4531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Checkout_Func -->
+        <test-method signature="Verify_Order_Success_Func()[pri:4, instance:testCases.TC001_PurchaseFlow_Test@b83a9be]" started-at="2025-08-04T13:03:41 IST" name="Verify_Order_Success_Func" finished-at="2025-08-04T13:03:42 IST" duration-ms="1249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Order_Success_Func -->
+        <test-method signature="Verify_Logout_Fun()[pri:5, instance:testCases.TC001_PurchaseFlow_Test@b83a9be]" started-at="2025-08-04T13:03:42 IST" name="Verify_Logout_Fun" finished-at="2025-08-04T13:03:42 IST" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Logout_Fun -->
+        <test-method signature="Verify_Invalid_Login_Fun()[pri:6, instance:testCases.TC001_PurchaseFlow_Test@b83a9be]" started-at="2025-08-04T13:03:42 IST" name="Verify_Invalid_Login_Fun" finished-at="2025-08-04T13:03:43 IST" duration-ms="365" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Invalid_Login_Fun -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testCases.TC001_PurchaseFlow_Test@30c8681]" started-at="2025-08-04T12:13:29 IST" name="close" finished-at="2025-08-04T12:13:29 IST" duration-ms="381" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:testCases.TC001_PurchaseFlow_Test@b83a9be]" started-at="2025-08-04T13:03:43 IST" name="close" finished-at="2025-08-04T13:03:43 IST" duration-ms="343" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- testCases.TC001_PurchaseFlow_Test -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
 </testng-results>
