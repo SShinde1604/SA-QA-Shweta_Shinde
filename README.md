@@ -41,7 +41,7 @@ Tool and Version
 Setup Instructions:
 - Clone the Repository
     1. Open Command Prompt (Windows) or Terminal (Mac/Linux)
-    2. Run the following command to clone the repo: git clone https://github.com/your-username/SA-QA-ShwetaShinde.git
+    2. Run the following command to clone the repo: git clone "https://github.com/your-username/SA-QA-ShwetaShinde.git"
   
   This will create a folder named SA-QA-Shweta_Shinde in your current directory.
 
