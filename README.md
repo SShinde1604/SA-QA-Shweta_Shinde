@@ -8,11 +8,12 @@ Target URL: https://www.saucedemo.com
 Folder Structure
 automation
 src/
-  - pages/ Page Object classes
-  - tests/ TestNG test classes
-  - utils/ Configs, listeners, test data handlers, documents
-  - testng.xml Test suite runner
-  - pom.xml Maven dependencies
+  - pages: Page Object classes
+  - testCases: TestNG test classes
+  - utils: listeners, test data handlers, documents
+  - src/test/resources: Configs 
+  - Main.xml Test suite runner
+  - pom.xml: Maven dependencies
   - README.md
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
@@ -29,35 +30,51 @@ Negative Test
 ----------------------------------------------------------------------------------------------------------------------------------------------
 Prerequisites
 Tool and Version
-  - Java 8 or above
+  - Java 8 or above: https://www.oracle.com/java/technologies/javase-downloads.html
   - Maven 3.6 or above
-  - Eclipse or IntelliJ
-  - Chrome Browser latest version (WebDriver auto-managed)
+      1. Download Maven: https://maven.apache.org/download.cgi
+      2. Installation guide (Windows/macOS/Linux): https://maven.apache.org/install.html
+  - Eclipse: https://www.eclipse.org/downloads/
+  - Chrome Browser latest version (WebDriver auto-managed): https://www.google.com/chrome/
   
 ----------------------------------------------------------------------------------------------------------------------------------------------
-Setup Instructions
+Setup Instructions:
 - Clone the Repository
-    git clone https://github.com/your-username/SA-QA-ShwetaShinde.git
+    1. Open Command Prompt (Windows) or Terminal (Mac/Linux)
+    2. Run the following command to clone the repo: git clone https://github.com/your-username/SA-QA-ShwetaShinde.git
+  
+  This will create a folder named SA-QA-Shweta_Shinde in your current directory.
 
-- Open Project in Eclipse
-    Go to File > Import > Existing Maven Project > Select root folder
+- Open Project in Eclipse:
+    1. Launch Eclipse IDE
+    2. Go to File > Import > Existing Maven Project > Select root folder
+    3. Browse to the cloned folder: .../SA-QA-Shweta_Shinde (root folder)
+    4. Click Finish
+Your project will be imported into Eclipse with all Maven configurations.
 
-- Download dependencies and compile
-    Run the following command: mvn clean install
+- Build the Project and Download Dependencies:
 
-- Run the Test Suite
-    Using Eclipse: Right-click testng.xml > Run As > TestNG Suite
+  In the terminal, run the following Maven command:  mvn clean install
+  
+  This will:
+    1. Download Selenium, TestNG, and other required dependencies
+    2. Compile the project
+    3. Run any default test cases (if defined in testng.xml)
 
-----------------------------------------------------------------------------------------------------------------------------------------------
-Test Report
-- After test execution, TestNG generates an HTML report:
-  project-root/test-output/emailable-report.html
-  Open this file in any browser to view the test results.
+- Run the Automation Test Suite:
 
-- CI/CD Integration
-  This project can be integrated into Jenkins or GitHub Actions.
-  Use the command mvn test in the CI pipeline.
-  Reports will be available in the test-output folder.
+    Using Eclipse: Go to src/test/java > testCases> Main.xml > Right-click Main.xml > Run As > TestNG Suite
+
+- View Test Reports:
+    1. After test execution, TestNG generates an HTML report:
+    2. SA-QA-Shweta_Shinde > test-output > emailable-report.html > Right click on emailable-report.html > Open with > Web Browser
+    3. Open this file in any browser to view the test results.
+
+- CI/CD Integration:
+    1. This project can be integrated into Jenkins or GitHub Actions.
+    2. Use the command mvn test in the CI pipeline.
+    3. Reports will be available in the test-output folder.
+  Note: CI/CD Integration is not done in this project.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 Libraries and Dependencies
