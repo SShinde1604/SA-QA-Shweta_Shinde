@@ -109,20 +109,20 @@ public class TC001_PurchaseFlow_Test extends TestBase {
 		System.out.println("--------------------------------------------------");
 	}
 	
-	
+	// Negative test case
 	@Test(priority = 6, groups= {"Sanity", "Master"})
 	public void Verify_Invalid_Login_Fun() throws InterruptedException
 	{
 		Login_Page_Negative lgN = new Login_Page_Negative(driver);
-			lgN.Username_N.sendKeys("Test_Invalid_Name");
-			lgN.Password_N.sendKeys("TestInvalidPass@12");
+			lgN.Username_N.sendKeys("standard_user456");
+			lgN.Password_N.sendKeys("secret_sauce456");
 			lgN.LoginButton_N.click();
+			System.out.println("Negative Test Case: ");
 			
 			boolean FailedLogin = lgN.LoginFailure();
-			System.out.println("User is logged in: "+FailedLogin);
-			Assert.assertEquals(FailedLogin, true, "User not able to login with invalid cred");
-			System.out.println("--------------------------------------------------");
-			
+			System.out.println("Error message is displayed for invalid login: "+FailedLogin);
+			Assert.assertEquals(FailedLogin, true, "Expected login to fail with invalid credentials, but it passed.");
+			System.out.println("--------------------------------------------------");		
 		
 	}
 	

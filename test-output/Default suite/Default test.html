@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Aug 03 11:16:58 IST 2025</td>
+<td>Started on:</td><td>Mon Aug 04 12:13:15 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>30 seconds (30265 ms)</td>
+<tr><td>Total time:</td><td>14 seconds (14480 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -77,14 +77,14 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='testCases.TC001_PurchaseFlow_Test.Verify_Invalid_Login_Fun()'><b>Verify_Invalid_Login_Fun</b><br>Test class: testCases.TC001_PurchaseFlow_Test</td>
-<td><div><pre>java.lang.AssertionError: Fail expected [true] but found [false]
+<td><div><pre>java.lang.AssertionError: Expected login to fail with invalid credentials, but it passed. expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1590)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 	at org.testng.Assert.assertEquals(Assert.java:132)
 	at org.testng.Assert.assertEquals(Assert.java:1079)
 	at org.testng.Assert.assertEquals(Assert.java:1043)
-	at testCases.TC001_PurchaseFlow_Test.Verify_Invalid_Login_Fun(TC001_PurchaseFlow_Test.java:123)
+	at testCases.TC001_PurchaseFlow_Test.Verify_Invalid_Login_Fun(TC001_PurchaseFlow_Test.java:124)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -111,15 +111,15 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace2017380745", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2017380745'><pre>java.lang.AssertionError: Fail expected [true] but found [false]
+</pre></div><a href='#' onClick='toggleBox("stack-trace495857386", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace495857386'><pre>java.lang.AssertionError: Expected login to fail with invalid credentials, but it passed. expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1590)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 	at org.testng.Assert.assertEquals(Assert.java:132)
 	at org.testng.Assert.assertEquals(Assert.java:1079)
 	at org.testng.Assert.assertEquals(Assert.java:1043)
-	at testCases.TC001_PurchaseFlow_Test.Verify_Invalid_Login_Fun(TC001_PurchaseFlow_Test.java:123)
+	at testCases.TC001_PurchaseFlow_Test.Verify_Invalid_Login_Fun(TC001_PurchaseFlow_Test.java:124)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -147,47 +147,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>10</td>
-<td>testCases.TC001_PurchaseFlow_Test@3eb81efb</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='testCases.TC001_PurchaseFlow_Test.Verify_Logout_Fun()'><b>Verify_Logout_Fun</b><br>Test class: testCases.TC001_PurchaseFlow_Test</td>
-<td></td>
-<td>0</td>
-<td>testCases.TC001_PurchaseFlow_Test@3eb81efb</td></tr>
-<tr>
-<td title='testCases.TC001_PurchaseFlow_Test.Verify_Checkout_Func()'><b>Verify_Checkout_Func</b><br>Test class: testCases.TC001_PurchaseFlow_Test</td>
-<td></td>
-<td>4</td>
-<td>testCases.TC001_PurchaseFlow_Test@3eb81efb</td></tr>
-<tr>
-<td title='testCases.TC001_PurchaseFlow_Test.Verify_Order_Success_Func()'><b>Verify_Order_Success_Func</b><br>Test class: testCases.TC001_PurchaseFlow_Test</td>
-<td></td>
-<td>1</td>
-<td>testCases.TC001_PurchaseFlow_Test@3eb81efb</td></tr>
-<tr>
-<td title='testCases.TC001_PurchaseFlow_Test.VerifyAddToCartFunc()'><b>VerifyAddToCartFunc</b><br>Test class: testCases.TC001_PurchaseFlow_Test</td>
-<td></td>
-<td>3</td>
-<td>testCases.TC001_PurchaseFlow_Test@3eb81efb</td></tr>
-<tr>
-<td title='testCases.TC001_PurchaseFlow_Test.VerifyLoginFun()'><b>VerifyLoginFun</b><br>Test class: testCases.TC001_PurchaseFlow_Test</td>
-<td></td>
-<td>4</td>
-<td>testCases.TC001_PurchaseFlow_Test@3eb81efb</td></tr>
-<tr>
-<td title='testCases.TC001_PurchaseFlow_Test.Verify_CartPage_Func()'><b>Verify_CartPage_Func</b><br>Test class: testCases.TC001_PurchaseFlow_Test</td>
-<td></td>
-<td>3</td>
-<td>testCases.TC001_PurchaseFlow_Test@3eb81efb</td></tr>
+<td>11</td>
+<td>testCases.TC001_PurchaseFlow_Test@30c8681</td></tr>
 </table><p>
 </body>
 </html>
