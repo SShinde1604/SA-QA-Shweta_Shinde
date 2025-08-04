@@ -10,11 +10,12 @@ automation
 src/
   - pages: Page Object classes
   - testCases: TestNG test classes
-  - utils: listeners, test data handlers, documents
+  - utils: listeners, test data handlers
   - src/test/resources: Configs 
   - Main.xml Test suite runner
   - pom.xml: Maven dependencies
   - README.md
+  - document: Test Strategy, Bug report
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 Features Automated
